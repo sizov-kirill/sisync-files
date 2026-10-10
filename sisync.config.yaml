@@ -1,0 +1,9 @@
+repo-link: git@github.com:sizov-kirill/sisync-files.git
+cron: "*/2 * * * *"
+files:
+  vscode-settings:
+    repo-path: files/vscode.settings.json
+    machine-path: "~/Library/Application Support/Code/User/settings.json"
+  codex-skill-commit-msg:
+    repo-path: files/codex.skill.commit-msg.md
+    machine-path: "~/.codex/skills/kdsizov-commit-msg/SKILL.md"
