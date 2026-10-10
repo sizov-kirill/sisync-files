@@ -1,5 +1,5 @@
 repo-link: git@github.com:sizov-kirill/sisync-files.git
-cron: "*/2 * * * *"
+cron: "*/10 * * * *"
 files:
   vscode-settings:
     repo-path: files/vscode.settings.json
