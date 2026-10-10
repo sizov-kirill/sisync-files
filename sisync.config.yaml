@@ -13,4 +13,13 @@ files:
   codex-skill-code-review:
     repo-path: files/codex.skill.code-review.md
     machine-path: "~/.codex/skills/kdsizov-code-review/SKILL.md"
+  codex-skill-simplify:
+    repo-path: files/codex.skill.simplify.md
+    machine-path: "~/.codex/skills/kdsizov-simplify/SKILL.md"
+  codex-skill-update-changelog:
+    repo-path: files/codex.skill.update-changelog.md
+    machine-path: "~/.codex/skills/kdsizov-update-changelog/SKILL.md"
+  codex-skill-rebase-and-resolve-conflicts:
+    repo-path: files/codex.skill.rebase-and-resolve-conflicts.md
+    machine-path: "~/.codex/skills/kdsizov-rebase-and-resolve-conflicts/SKILL.md"
 
