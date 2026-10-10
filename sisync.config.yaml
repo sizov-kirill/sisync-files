@@ -4,6 +4,10 @@ files:
   vscode-settings:
     repo-path: files/vscode.settings.json
     machine-path: "~/Library/Application Support/Code/User/settings.json"
+  vscode-shortcuts:
+    repo-path: files/vscode.shortcuts.json
+    machine-path: "~/Library/Application\ Support/Code/User/keybindings.json"
   codex-skill-commit-msg:
     repo-path: files/codex.skill.commit-msg.md
     machine-path: "~/.codex/skills/kdsizov-commit-msg/SKILL.md"
+
