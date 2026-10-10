@@ -1,0 +1,40 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.gotoSymbol",
+        "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.terminal.openDetectedLink",
+        "when": "terminalFocus && terminalHasBeenCreated"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "outline.focus"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-editor.action.accessibleViewGoToSymbol",
+        "when": "accessibilityHelpIsShown && accessibleViewGoToSymbolSupported || accessibleViewGoToSymbolSupported && accessibleViewIsShown"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+        "when": "!activeEditorGroupEmpty"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+        "when": "!activeEditorGroupEmpty"
+    },
+        {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+        {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+]
