@@ -13,5 +13,10 @@
     "workbench.layoutControl.enabled": false,
     "python.showRunFileInEditorTitleMenu": false,
     "window.commandCenter": false,
-    "workbench.editor.editorActionsLocation": "hidden"
+    "workbench.editor.editorActionsLocation": "hidden",
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.statusBarItem.enabled": false,
+    "editor.unicodeHighlight.allowedLocales": {"ru": true},
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "nestor.agentMode.autoApprovableCommandsList": []
 }
